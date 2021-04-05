@@ -1,0 +1,191 @@
+body {
+    margin: 0 0;
+}
+
+/* a リンクのデコレーション無し */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* --section-- [メインの親]*/
+section {
+    width: 100%;
+    padding-top: 50px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+/* --wrap-- [homeimage][info][webstore][move-btn,instagram,blog][access][map] */
+.wrap {
+    margin: 0 auto;
+}
+
+/* --info-- */
+.info {
+    width: 90%;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 180px;
+}
+
+.info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .25em;
+    border-bottom: 1px solid #000;
+}
+
+.info table {
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+table {
+    border: none;
+    border-spacing: 0;
+}
+
+/* --online-store-link-- */
+.webstore {
+    background-color: #DCEEF2;
+    color: #000;
+    font-size: 3.5vw;
+    height: 400px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.webstore a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    height: 240px;
+    padding-top: 160px;
+}
+
+#web-store-link {
+    max-width: 1110px;
+    letter-spacing: 0.2em;
+    width: 77vw;
+    margin: 0 auto 0;
+}
+
+/* --instagram-- */
+.instagram h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .25em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* --Blog-- */
+.blog {
+    margin: 60px 0;
+}
+.blog p{
+    display: block;
+    border: 1px solid #000;
+    font-size: 24px;
+    letter-spacing: .25em;
+    width: 307px;
+    padding: 13px 0;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    transition: .1s;
+    font-weight: bold;
+}
+
+/* --access--*/
+.access p {
+    display: block;
+    border: 1px solid #000;
+    font-size: 24px;
+    letter-spacing: .25em;
+    width: 307px;
+    padding: 13px 0;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    transition: .1s;
+    font-weight: bold;
+}
+
+/* --map-- */
+.map {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.map h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.map p {
+    display: block;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 11px;
+}
+
+
+/* --contact-- */
+.contact {
+    margin: 100px 0;
+}
+.contact p {
+    display: block;
+    border: 1px solid #000;
+    font-size: 24px;
+    letter-spacing: .25em;
+    width: 307px;
+    padding: 13px 0;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    transition: .1s;
+    font-weight: bold;
+}
+
+/* --footer-- [wrap][ul,li] */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 40px 0 30px;
+    margin-top: 60px;
+    font-size: 100%;
+}
+
+footer a {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .4em;
+    line-height: 15px;
+}
+
+footer .wrap {
+    max-width: 1000px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+}
+
+.copy {
+    text-align: center;
+    font-size: small;
+}
