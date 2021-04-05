@@ -25,6 +25,14 @@ section {
     margin: 0 auto;
 }
 
+/* --homeimage--*/
+.homeimage img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    padding: 300px 0 300px 0;
+}
+
 /* --info-- */
 .info {
     width: 90%;
@@ -48,6 +56,23 @@ section {
 table {
     border: none;
     border-spacing: 0;
+}
+
+th, td {
+    vertical-align: top;
+    font-weight: normal;
+    text-align: left;
+}
+
+.newarrivalimg img {
+    width: 140px;
+}
+
+.info table td {
+    padding-left: 30px;
+    font-size: 18px;
+    vertical-align: middle;
+    font-weight: bold;
 }
 
 /* --online-store-link-- */
