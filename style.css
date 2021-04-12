@@ -39,7 +39,7 @@ section {
     }
     }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     .homeimage img {
         width: 50%;
         display: block;
